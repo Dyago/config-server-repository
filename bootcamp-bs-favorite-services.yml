@@ -1,2 +1,6 @@
-application:
-  code: 666
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: favoritedb
